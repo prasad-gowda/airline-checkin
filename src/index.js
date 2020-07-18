@@ -1,14 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import "./index.css";
+import './index.scss'
 
 const App = () => {
-  return (
-    <div>
-      <div>Welcome to my-webpack-react-starter</div>
-    </div>
-  );
-};
+    return (
+        <div>
+            <div>Welcome to my-webpack-react-starter</div>
+        </div>
+    )
+}
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+ReactDOM.render(<App />, document.querySelector('#root'))
