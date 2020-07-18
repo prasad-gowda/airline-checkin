@@ -4,9 +4,9 @@
     "es2020": true
   },
   "extends": [
-    "plugin:react/recommended",
-    "google",
-    "react-app"
+    "airbnb",
+    "airbnb/hooks",
+    "prettier"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -16,7 +16,7 @@
     "sourceType": "module"
   },
   "plugins": [
-    "react"
+    "prettier"
   ],
   "rules": {
   }

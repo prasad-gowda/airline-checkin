@@ -129,3 +129,7 @@ yarn-error.log*
 #Webstorm
 .idea/
 *.iml
+
+#build file
+/dist
+dist
